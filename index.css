@@ -1,142 +1,222 @@
-header{
-  position: fixed;
-  /* top: 0;
-  left: 0; */
-  /* width: 100%; */
+*{
+  margin: 0;
+}
+
+header {
+  padding: 0;
   display: flex;
   align-items: center;
-  background: #fff;
- /*  z-index: 1000; */
- /*  box-shadow: 0 2px 6px rgba(0,0,0,0.08); */
-  padding: 10px 16px;
+  flex-direction: row;
+  border-bottom:1px solid;
 }
-/* 
-.logo-evenbrite{
-   width: 20px;
-   height: 2px;
-} */
 
 .eventbrite-logo{
-   height: 130px;
-   margin-top:-10px;
-   margin-left: 10px;
-   cursor: pointer;
+  height: 160px;
+  margin-top:-10px;
+  margin-left: 5px;
+  cursor: pointer;
 }
-
-
-
 
 input{
-   padding: 19px;
-   border:0.5px solid rgba(187, 186, 186, 0.788);
-   /* border-radius: 0px 25px 25px 0px; */
-   border: none;
-   background-color: rgba(187, 183, 183, 0.39);
-   height: 19px;
+  padding: 19px;
+  border:0.5px solid rgba(187, 186, 186, 0.788);
+  border: none;
+  background-color: rgba(187, 183, 183, 0.39);
+  height: 19px;
 }
+
+
 
 .icone-serch{
-   background-color: rgba(187, 183, 183, 0.39);
-   padding: 19px;
-   cursor: pointer;
-   border-radius: 25px 0px 0px 25px;
-   height: 100px;
+  background-color: rgba(187, 183, 183, 0.39);
+  padding: 19px;
+  cursor: pointer;
+  border-radius: 25px 0px 0px 25px;
+  height: 100px;
 }
 
-.barre-de-recherche{
-   margin-left: 100px; 
-   margin-top: -25px;
+.barre-de-recherche {
+  margin-left: 40px;
+  justify-content: space-between;
 }
 
 .barre-de-recherche:hover{
-   background-color: rgb(250, 241, 241);
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: rgb(250, 241, 241);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 
 .icone-localisation{
-   background-color: rgba(168, 165, 165, 0.459);
-   padding: 19px;
-   border-radius:  0px 20px 20px 0px;
-   margin-left: -45px;
-   cursor: pointer;
+  background-color: rgba(168, 165, 165, 0.459);
+  padding: 19px;
+  border-radius:  0px 20px 20px 0px;
+  margin-left: -45px;
+  cursor: pointer;
 }
 
-
 .serch-1{
-   background-color: rgb(240, 105, 10);
-   padding: 14px;
-   border-radius: 25px 25px 25px 25px;
-   cursor: pointer;
+  background-color: rgb(240, 105, 10);
+  padding: 14px;
+  border-radius: 25px 25px 25px 25px;
+  cursor: pointer;
 }
 
 .input1{
-   padding: 18.5px;
-   /* background-color: rgba(187, 183, 183, 0.39); */
+  padding: 18.5px;
+   
 }
-
-
 
 .description{
-  display: flex;
+ display: flex;
   align-items: center;
-  gap: 16px;
-  margin-left: auto;
-  margin-right: 10px;
-}
+  justify-content: space-between;
+  font-size: 150px;
+  padding: 10px;
+  font-size: 18px;
+  width: 600px;
+  margin-left: 25px;
+} 
 
-.text{
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  margin: 5px 10px;
-  font-size: 22px;
-  font-weight: 600;
-  color: #333;
-  margin-top: -5px;
+.description a{
+  color: #333333;
   cursor: pointer;
-  transition: color .2s ease, transform .15s ease;
+  text-decoration: none;
+  padding: 5px;
 }
 
-.text:hover{
-  color: #1f1d1c;
-  transform: translateY(-3px);
-  border-radius:30px ;
-  background-color: rgb(250, 241, 241);
+a:hover{
+  border-radius: 25px 25px 25px 25px;
+  background-color: rgba(56, 56, 56, 0.199)
+};
+  
+
+.eventbrite-logo {
+  height: 100px;
+  margin-top: 0;
 }
 
+.icone-serch, .icone-localisation, .serch-1 {
+    padding: 10.1px;
+  }
 
-  .eventbrite-logo {
-    height: 100px;
-    margin-top: 0;
-  }
-  .barre-de-recherche {
-    margin-left: 10px;
-    margin-top: 0;
-  }
-  .description {
-    gap: 6px;
-    margin-right: 5px;
-
-  }
-  .text {
-    font-size: 20px;
-    font-weight: 10;
-    margin-top: -109px;
-      margin-left: 9px;
-  }
-  .icone-serch, .icone-localisation, .serch-1 {
-    padding: 10px;
-  }
   input, .input1 {
     padding: 12px;
     height: auto;
     box-shadow: #fff 10px 10px 10px;
   }
-  header {
-    flex-wrap: wrap;
-    gap: 8px;
-    padding: 8px;
-    position: fixed;
-    margin-top: -10px;
+
+  .image1{
+    height: 380px;
+    margin-left: 600px;
+    margin-top: 20px;
+    width: 650px;
+    
   }
+
+  .p2{
+  margin-top: -280px;
+  margin-left: 5px
+}
+
+.pour-ceux{
+  font-size: 40px;
+  color: chocolate;
+  font-weight: bold;
+}
+
+.qui-adorent-sortir{
+  font-size: 60px;
+  font-weight: bold;
+ 
+}
+
+.content{
+  background-color: #f6f7fd;
+  margin-left: 90px;
+  height: 350px;
+  width: 950px;
+}
+
+main{
+
+}
+
+.icon-containner{
+  padding: 20px 10px;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+   
+}
+
+.icon-containner div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.groupe-icone{
+  border: 1px solid rgb(173, 172, 172);
+  padding: 19px;
+  border-radius: 55px;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.groupe-icone:hover{
+  background-color: rgb(146, 168, 238);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.icon-containner p{
+  width: 120px;
+  text-align: center;
+}
+
+p{
+  margin-top: 5px;
+}
+
+.main-2{
+  margin-top: 50px;
+}
+
+.deuxième-partie{
+  border: 1px solid rgba(157, 153, 165, 0.795);
+  padding: 25px;
+  font-size: 12px;
+  font-family: Arial;
+  font-weight:700 ;
+  color: #1d1d30;
+   display:flex;
+}
+ input{
+ margin-left: 7px;
+ border: none;
+ background-color: white;
+ padding: 15px;
+ }
+
+ ::placeholder{
+  font-size: 25px;
+  color: rgb(79, 79, 238);
+  font-family: Arial;
+  font-weight:400 ;
+ }
+
+ .icone-bas{
+  font-size: 40px;
+  margin-left:  18px;
+ }
+
+ .second-liens a{
+  margin-top: 30px;
+  border: 1px solid ;
+  font-size: 20px;
+  font-weight: 770;
+  color: #1d1d30;
+  text-decoration: none;
+  gap: 25px;
+ }
