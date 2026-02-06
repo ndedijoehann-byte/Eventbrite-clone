@@ -213,7 +213,6 @@ p{
 
  .second-liens a{
   margin-top: 30px;
-  border: 1px solid ;
   font-size: 20px;
   font-weight: 770;
   color: #1d1d30;
@@ -221,3 +220,78 @@ p{
   gap: 30px;
   margin-left: 30px;
  }
+
+  .second-liens a:hover{
+    color: rgb(46, 58, 235);
+    text-decoration: underline;
+  }
+
+ h1{
+  font-size: 30px;
+  margin-left:  55px;
+  margin-top: 25px;
+ }
+
+ .carte{
+  display: flex;
+  
+ }
+
+ .content{
+    width: 300px;
+   /*  padding: 10px; */
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 20px 20px 8px 8px ;
+    cursor: pointer;
+    height: fit-content;
+ }
+
+ .content:hover{
+  box-shadow: -9px 10px 4px  rgb(224, 222, 222);
+ }
+
+ h3{
+    color: #1d1d30;
+    font-family: arial;
+    font-weight: 700;
+    margin-top: 8px;
+ }
+
+ .EventCardImage_event-card-image__3lBQK{
+  border-radius: 20px 20px 8px 8px;
+ }
+
+.carte-date{
+  margin-top: 11px;
+  font-size: 14px;
+  font-family: arial;
+  font-weight: 400;
+  color: #1d1d30;
+}
+
+.carte-local{
+  font-size: 13px;
+  font-weight: 400;
+  font-family: arial;
+  margin-top: 10px;
+  color: #1d1d30a6;
+}
+ 
+.carte-prix{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #1d1d30;
+  margin-top: 8px;
+  
+}
+
+.contenaire-content{
+  padding:10px;
+}
+
+/* .content{
+  height: 370px;
+  border: 1px solid;
+} */
