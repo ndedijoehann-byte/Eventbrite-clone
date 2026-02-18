@@ -295,3 +295,176 @@ p{
   height: 370px;
   border: 1px solid;
 } */
+
+.contenaire-de-la-destination{
+  margin-top:150px ;
+  color: #1d1d30;
+  background-color: rgba(128, 128, 128, 0.425);
+  padding: 70px;
+  border:solid 1px  ;
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  flex: content;
+  gap: 28px;
+  
+}
+
+.destination-icone{
+  border: solid 2px grey ;
+  border-radius: 38px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+h1{
+  /* padding: 20px; */
+  font-weight: 700;
+  font-family: Arial;
+  position: absolute;
+  margin-left: 45px;
+  margin-top: -300px;
+}
+
+.carte-destination{
+  width: 380px;
+  margin-top: 90px;
+  cursor: pointer;
+}
+
+.carte-destination:hover{
+
+}
+
+.img-de-la-carte-destination{
+  border-radius: 40px 40px 0 0;
+  width: 380px;
+  height: 250px;
+}
+
+.contenaire-p-carte{
+  margin-left: 40px;
+  margin-top: -25px;
+}
+
+.p-carte-dtnf{
+  font-size: 20px;
+  font-family: Arial;
+  /* font-weight: 700; */
+  color: white;
+}
+
+.p1-carte-dtnf{
+  font-size: 14px;
+  color: orangered;
+}
+
+.contenair-p1{
+  background-color: orangered;
+  position: relative;
+  margin-top: -16px;
+}
+
+.ville-populaire{
+  margin-top: 20px;
+  border-radius: solid 1px;
+  background-color: rgba(211, 211, 208, 0.76);
+  padding: 90px;
+} 
+
+.h1-ville-populaires{
+  margin-top: 30px;
+  margin-left: 120px;
+}
+
+.button-de-ville-populaires{
+  padding: 10px;
+  border-radius: 20px 0px 0px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+  font-weight: 500;
+  font-size: 16px;
+  padding-right: -90px;
+}
+
+.button-de-ville-populaires:hover{
+  background-color: rgb(170, 169, 169);
+}
+
+.icone-ville-populaires{
+  padding: 10.5px;
+  /* border: solid 1px; */
+  background-color: white;
+  border-radius: 0 20px 20px 0;
+  margin-left: -4px;
+  cursor: pointer;
+}
+
+.icone-ville-populaires:hover{
+  background-color: rgb(170, 169, 169); 
+}
+
+/* .contenaire-button-ville-populaires{
+  gap: 20px;
+}*/
+
+
+footer{
+  background-color: #1e0a3c; 
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.p-footer{
+  color: white;
+  padding: 25px;
+  font-size: 15px;
+}
+
+.lien-footer{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+
+ul{
+  width: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+ ul:hover{
+  text-decoration-color: blue;
+} 
+
+
+li{
+  font-size:14px;
+}
+
+select{
+  border: solid 1px #1e0a3c;
+ text-decoration: none;
+  height: 20px;
+  cursor: pointer;
+  background-color: #1e0a3c;
+  color: white;
+}
+
+option{
+  background-color: rgb(247, 244, 244);
+  color: black;
+}
+
+li{
+  color: rgba(255, 255, 255, 0.445);
+}
+
+a:hover{
+  color: blue;
+  text-decoration: underline;
+}
